@@ -15,3 +15,7 @@ $ acc session # check login status
 ```shell
 $ acc new tessoku-bookh
 ```
+
+## Memo
+### How to use PyPy as the default language
+- Reference: https://github.com/Tatamo/atcoder-cli/issues/29
