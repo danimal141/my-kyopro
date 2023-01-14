@@ -21,7 +21,11 @@ $ acc session # check login status
 
 ### Start programming
 ```shell
-$ acc new tessoku-bookh
+$ acc new tessoku-bookh # create
+
+$ cd path/to/task
+$ acc s main.py # using Python3.8
+$ acc s main.py -- --guess-python-interpreter pypy # using PyPy
 ```
 
 ## Memo
