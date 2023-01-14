@@ -5,6 +5,14 @@
 - [online-judge-tools](https://github.com/online-judge-tools/oj)
 
 ## Get started
+### Poetry
+```shell
+$ poetry install
+
+$ poetry run python -m flake8 **/*.py # lint
+$ poetry run python -m black **/*.py # format
+```
+
 ### Sign in to Atcoder
 ```shell
 $ acc login # login your atcoder account
