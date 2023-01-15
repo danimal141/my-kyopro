@@ -1,7 +1,8 @@
-TARGET_NUM = 100
+TARGET = 100
 [a, b] = [int(val) for val in input().split()]
 
-matched = list(filter(lambda i: (TARGET_NUM / i).is_integer(), range(a, b)))
+# Create the divisors list
+matched = list(filter(lambda i: (TARGET % i) == 0, list(range(a, b)) + [b]))
 
 if len(matched) > 0:
     print("Yes")
