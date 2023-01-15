@@ -1,6 +1,8 @@
 # my-kyopro-tessoku
 
 ## Dependencies
+- pyenv
+- poetry
 - [atcoder-cli](https://github.com/Tatamo/atcoder-clihttps://github.com/Tatamo/atcoder-cli)
 - [online-judge-tools](https://github.com/online-judge-tools/oj)
 
@@ -11,6 +13,9 @@ $ poetry install
 
 $ poetry run python -m flake8 **/*.py # lint
 $ poetry run python -m black **/*.py # format
+
+# pre-commit
+$ poetry run pre-commit install
 ```
 
 ### Sign in to Atcoder
