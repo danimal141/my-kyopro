@@ -5,8 +5,8 @@
 """
 vals = [list(map(int, input().split())) for i in range(2)]
 
-[_, x] = vals[0]
-candidates = vals[1]
+[n, x] = vals[0]
+candidates = vals[1][:n]
 
 if x in candidates:
     print("Yes")

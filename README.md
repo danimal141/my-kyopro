@@ -31,6 +31,9 @@ $ acc new tessoku-bookh # create
 $ cd path/to/task
 $ acc s main.py # using Python3.8
 $ acc s main.py -- --guess-python-interpreter pypy # using PyPy
+
+# Try the exam before submitting
+$ oj test -c "python3 main.py" -d tests
 ```
 
 ## Memo
