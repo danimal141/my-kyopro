@@ -11,7 +11,7 @@ from itertools import accumulate
 
 d = int(input())  # days
 n = int(input())  # attendance number
-diff_list = [0] * (d + 1)
+diff_list = [0] * (d + 2)  # to trim the start and end
 
 for _ in range(n):
     start, end = map(int, input().split())
@@ -19,5 +19,5 @@ for _ in range(n):
     diff_list[end + 1] -= 1
 cs = list(accumulate(diff_list))
 
-for i in range(1, len(cs)):
+for i in range(1, len(cs) - 1):
     print(cs[i])
