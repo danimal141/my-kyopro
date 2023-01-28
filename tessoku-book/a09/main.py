@@ -1,7 +1,7 @@
 from itertools import accumulate
 
 h, w, n = map(int, input().split())
-x = cs = [[0] * (w + 1) for _ in range(h + 1)]
+x = cs = [[0] * (w + 2) for _ in range(h + 2)]
 
 for _ in range(n):
     a, b, c, d = map(int, input().split())
@@ -20,5 +20,5 @@ for j in range(1, w + 1):
         cs[i][j] = cs[i - 1][j] + cs[i][j]
 
 for i in range(1, h + 1):
-    out = " ".join(map(str, cs[i][1:]))
+    out = " ".join(map(str, cs[i][1 : w + 1]))  # noqa
     print(out)
