@@ -1,4 +1,4 @@
-# my-kyopro-tessoku
+# my-kyopro
 
 ## Dependencies
 - pyenv
