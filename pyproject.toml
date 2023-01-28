@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "my-kyopro-tessoku"
+name = "my-kyopro"
 version = "0.1.0"
 description = ""
 authors = ["danimal141 <hideaki.ishii1204@gmail.com>"]
 readme = "README.md"
-packages = [{include = "my_kyopro_tessoku"}]
+packages = [{include = "my_kyopro"}]
 
 [tool.poetry.dependencies]
 python = "^3.8.2"

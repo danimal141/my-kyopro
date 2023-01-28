@@ -12,14 +12,13 @@
 $ python -m venv .venv # to inform poetry of the python-version
 $ poetry install
 
-# use poetry
-$ poetry shell or poetry run xx
-
-$ poetry run python -m flake8 **/*.py # lint
-$ poetry run python -m black **/*.py # format
-
 # pre-commit
 $ poetry run pre-commit install
+
+# use poetry
+$ poetry shell or poetry run xx
+$ poetry run python -m flake8 **/*.py # lint
+$ poetry run python -m black **/*.py # format
 ```
 
 ### Sign in to Atcoder
