@@ -20,6 +20,7 @@ a = list(map(int, input().split()))
 # print(target_range[0] + 1)
 
 
+# target_list should be sorted
 def bin_search(val, target_list):
     left = 0
     right = len(target_list) - 1
