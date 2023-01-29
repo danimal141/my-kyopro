@@ -8,7 +8,7 @@ a = list(map(int, input().split()))
 # ans = 11 (index: 10)
 
 target_range = range(0, n)
-idx = int(n / 2)
+idx = n // 2  # // means rounding division
 
 while len(target_range) > 1:
     first_range = target_range[:idx]
