@@ -27,4 +27,5 @@ while left_sec < right_sec:
     elif ans == True:  # noqa
         right_sec = mid_sec
 
+# After finishing the loop, left_sec would equal right_sec
 print(left_sec)
