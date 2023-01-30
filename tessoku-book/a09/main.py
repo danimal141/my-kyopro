@@ -22,6 +22,6 @@ for j in range(1, w + 1):
 
 for i in range(1, h + 1):
     # fmt: off
-    out = " ".join(map(str, cs[i][1:w + 1]))  # noqa
+    out = " ".join(map(str, cs[i][1:w + 1]))
     # fmt: on
     print(out)
