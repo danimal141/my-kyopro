@@ -42,3 +42,6 @@ $ oj test -c "python3 main.py" -d tests
 ## Memo
 ### How to use PyPy as the default language
 - Reference: https://github.com/Tatamo/atcoder-cli/issues/29
+
+### How to resolve conflicts between flake8 and black
+- Reference: https://github.com/psf/black/blob/22.12.0/docs/compatible_configs/flake8/.flake8

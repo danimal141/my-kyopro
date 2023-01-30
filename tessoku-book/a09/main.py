@@ -21,7 +21,5 @@ for j in range(1, w + 1):
         cs[i][j] = cs[i - 1][j] + cs[i][j]
 
 for i in range(1, h + 1):
-    # fmt: off
-    out = " ".join(map(str, cs[i][1:w + 1]))
-    # fmt: on
+    out = " ".join(map(str, cs[i][1 : w + 1]))
     print(out)
