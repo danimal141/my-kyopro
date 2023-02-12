@@ -6,6 +6,36 @@ a = [0] * (n + 1)
 for i in range(1, n + 1):
     p[i], a[i] = map(int, input().split())
 
+"""
+input:
+4
+4 20
+3 30
+2 40
+1 10
+
+loop:
+
+left: 1, right: 3, len: 2
+------------
+left: 2, right: 4, len: 2
+------------
+left: 1, right: 2, len: 1
+------------
+left: 2, right: 3, len: 1
+------------
+left: 3, right: 4, len: 1
+------------
+left: 1, right: 1, len: 0
+------------
+left: 2, right: 2, len: 0
+------------
+left: 3, right: 3, len: 0
+------------
+left: 4, right: 4, len: 0
+------------
+"""
+
 dp = [[0] * (n + 1) for _ in range(n + 1)]
 dp[1][n] = 0
 
