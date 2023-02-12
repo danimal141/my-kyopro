@@ -16,4 +16,5 @@ for i in range(1, n + 1):
             dp[i][j] = dp[i - 1][j]
         elif j >= weights[i]:
             dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weights[i]] + values[i])
+
 print(max(dp[n]))
