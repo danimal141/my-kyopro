@@ -3,6 +3,7 @@ s = input()
 queries = [list(map(int, input().split())) for i in range(q)]
 
 # ord(c) gets the ASCII code of the string
+# https://docs.python.org/3/library/functions.html?highlight=ord#ord
 t = list(map(lambda c: ord(c) - ord("a") + 1, s))
 
 MOD = 2147483647
